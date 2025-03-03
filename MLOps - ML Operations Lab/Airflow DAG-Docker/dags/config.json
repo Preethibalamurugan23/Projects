@@ -1,0 +1,4 @@
+{
+    "google_news_url": "https://news.google.com/",
+    "output_file": "news_articles.json"
+}

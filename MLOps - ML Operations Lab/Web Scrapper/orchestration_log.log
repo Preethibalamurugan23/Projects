@@ -1,0 +1,925 @@
+2025-02-15 15:32:16,573 - INFO - Orchestration script started at 2025-02-15 15:32:16.573825
+2025-02-15 15:32:16,575 - INFO - Starting task: Get Google News Homepage
+2025-02-15 15:32:17,571 - INFO - Completed task: Get Google News Homepage
+2025-02-15 15:32:17,572 - INFO - Starting task: Parse Google News Articles
+2025-02-15 15:32:17,620 - INFO - ====== WebDriver manager ======
+2025-02-15 15:32:18,742 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:32:18,959 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:32:19,136 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:32:28,014 - INFO - ====== WebDriver manager ======
+2025-02-15 15:32:29,059 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:32:33,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:32:33,489 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:33:33,539 - INFO - ====== WebDriver manager ======
+2025-02-15 15:33:34,604 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:33:38,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:33:39,047 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:33:48,807 - INFO - ====== WebDriver manager ======
+2025-02-15 15:33:49,668 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:33:53,921 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:33:54,138 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:34:26,668 - INFO - ====== WebDriver manager ======
+2025-02-15 15:34:27,603 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:34:31,790 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:34:31,989 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:34:47,718 - INFO - ====== WebDriver manager ======
+2025-02-15 15:34:48,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:34:52,886 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:34:53,070 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:35:02,624 - INFO - ====== WebDriver manager ======
+2025-02-15 15:35:03,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:35:07,880 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:35:09,055 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:35:25,400 - INFO - ====== WebDriver manager ======
+2025-02-15 15:35:26,450 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:35:31,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 15:35:31,351 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 15:36:04,131 - INFO - Completed task: Parse Google News Articles
+2025-02-15 15:36:04,132 - INFO - Starting task: Save Articles
+2025-02-15 15:36:04,152 - INFO - Completed task: Save Articles
+2025-02-15 15:36:04,152 - INFO - Orchestration script ended at 2025-02-15 15:36:04.152571
+2025-02-15 16:48:08,025 - INFO - Orchestration script started at 2025-02-15 16:48:08.025007
+2025-02-15 16:48:08,031 - INFO - Starting task: Get Google News Homepage
+2025-02-15 16:48:09,586 - INFO - Completed task: Get Google News Homepage
+2025-02-15 16:48:09,587 - INFO - Starting task: Parse Google News Articles
+2025-02-15 16:48:09,618 - INFO - ====== WebDriver manager ======
+2025-02-15 16:48:10,590 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:48:10,825 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:48:10,974 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:48:19,200 - ERROR - Error in task Get and Parse Articles: is_title_unique() missing 1 required positional argument: 'collection'
+2025-02-15 16:48:19,201 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Preethi\Downloads\assgn 1\orchestration.py", line 83, in get_and_parse_articles
+    articles = parse_google_news(html)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\Downloads\assgn 1\google_news_scraper.py", line 274, in parse_google_news
+    if is_title_unique(title):
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: is_title_unique() missing 1 required positional argument: 'collection'
+
+2025-02-15 16:48:19,202 - WARNING - No articles to process.
+2025-02-15 16:48:19,202 - INFO - Orchestration script ended at 2025-02-15 16:48:19.202476
+2025-02-15 16:50:19,147 - INFO - Orchestration script started at 2025-02-15 16:50:19.147585
+2025-02-15 16:50:19,147 - INFO - Starting task: Get Google News Homepage
+2025-02-15 16:50:20,144 - INFO - Completed task: Get Google News Homepage
+2025-02-15 16:50:20,145 - INFO - Starting task: Parse Google News Articles
+2025-02-15 16:50:20,187 - INFO - ====== WebDriver manager ======
+2025-02-15 16:50:21,090 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:21,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:21,440 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:50:30,180 - INFO - ====== WebDriver manager ======
+2025-02-15 16:50:31,025 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:35,235 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:35,386 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:50:43,931 - INFO - ====== WebDriver manager ======
+2025-02-15 16:50:44,948 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:49,194 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:50:49,396 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:50:58,669 - INFO - ====== WebDriver manager ======
+2025-02-15 16:50:59,590 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:03,819 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:03,994 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:51:37,360 - INFO - ====== WebDriver manager ======
+2025-02-15 16:51:38,283 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:42,497 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:42,666 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:51:51,043 - INFO - ====== WebDriver manager ======
+2025-02-15 16:51:52,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:56,296 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:51:56,593 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:52:10,398 - INFO - ====== WebDriver manager ======
+2025-02-15 16:52:11,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:52:15,557 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:52:15,757 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:52:24,368 - INFO - ====== WebDriver manager ======
+2025-02-15 16:52:25,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:52:29,574 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:52:29,753 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:52:37,565 - INFO - Completed task: Parse Google News Articles
+2025-02-15 16:52:37,566 - INFO - Starting task: Save Articles
+2025-02-15 16:52:37,609 - INFO - Completed task: Save Articles
+2025-02-15 16:52:37,609 - INFO - Orchestration script ended at 2025-02-15 16:52:37.609991
+2025-02-15 16:54:33,372 - INFO - Orchestration script started at 2025-02-15 16:54:33.372037
+2025-02-15 16:54:33,372 - INFO - Starting task: Get Google News Homepage
+2025-02-15 16:54:34,051 - INFO - Completed task: Get Google News Homepage
+2025-02-15 16:54:34,052 - INFO - Starting task: Parse Google News Articles
+2025-02-15 16:54:34,076 - INFO - ====== WebDriver manager ======
+2025-02-15 16:54:34,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:54:35,177 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:54:35,341 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:54:47,445 - INFO - ====== WebDriver manager ======
+2025-02-15 16:54:48,398 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:54:52,629 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:54:52,885 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:55:05,881 - INFO - ====== WebDriver manager ======
+2025-02-15 16:55:06,903 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:11,224 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:11,369 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:55:23,460 - INFO - ====== WebDriver manager ======
+2025-02-15 16:55:24,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:28,510 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:28,693 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:55:40,101 - INFO - ====== WebDriver manager ======
+2025-02-15 16:55:40,995 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:45,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:45,416 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:55:54,847 - INFO - ====== WebDriver manager ======
+2025-02-15 16:55:55,714 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:55:59,899 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:56:00,082 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:56:10,903 - INFO - ====== WebDriver manager ======
+2025-02-15 16:56:11,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:56:16,050 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:56:16,431 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:56:26,936 - INFO - ====== WebDriver manager ======
+2025-02-15 16:56:27,851 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:56:32,056 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 16:56:32,208 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 16:56:42,844 - INFO - Completed task: Parse Google News Articles
+2025-02-15 16:56:42,844 - INFO - Starting task: Save Articles
+2025-02-15 16:56:42,847 - INFO - Completed task: Save Articles
+2025-02-15 16:56:42,848 - INFO - Orchestration script ended at 2025-02-15 16:56:42.848775
+2025-02-15 17:24:03,953 - INFO - Orchestration script started at 2025-02-15 17:24:03.953143
+2025-02-15 17:24:03,969 - INFO - Starting task: Get Google News Homepage
+2025-02-15 17:25:03,804 - INFO - Completed task: Get Google News Homepage
+2025-02-15 17:25:03,804 - INFO - Starting task: Parse Google News Articles
+2025-02-15 17:25:03,933 - INFO - ====== WebDriver manager ======
+2025-02-15 17:25:05,337 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:05,764 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:06,147 - INFO - There is no [win64] chromedriver "132.0.6834.159" for browser google-chrome "132.0.6834" in cache
+2025-02-15 17:25:06,147 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:06,646 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-15 17:25:06,650 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-15 17:25:06,651 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-15 17:25:07,309 - INFO - Driver downloading response is 200
+2025-02-15 17:25:12,987 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:13,989 - INFO - Driver has been saved in cache [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-15 17:25:28,097 - INFO - ====== WebDriver manager ======
+2025-02-15 17:25:29,626 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:33,897 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:34,063 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:25:48,161 - INFO - ====== WebDriver manager ======
+2025-02-15 17:25:50,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:54,739 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:25:54,913 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:26:07,274 - INFO - ====== WebDriver manager ======
+2025-02-15 17:26:08,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:12,559 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:12,694 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:26:23,033 - INFO - ====== WebDriver manager ======
+2025-02-15 17:26:23,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:28,230 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:28,378 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:26:38,915 - INFO - ====== WebDriver manager ======
+2025-02-15 17:26:39,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:44,004 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:44,175 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:26:54,187 - INFO - ====== WebDriver manager ======
+2025-02-15 17:26:55,212 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:59,438 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:26:59,597 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:27:09,417 - INFO - ====== WebDriver manager ======
+2025-02-15 17:27:10,372 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:27:14,630 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:27:14,796 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:27:24,708 - INFO - Completed task: Parse Google News Articles
+2025-02-15 17:27:24,709 - INFO - Starting task: Save Articles
+2025-02-15 17:27:24,762 - INFO - Completed task: Save Articles
+2025-02-15 17:27:24,762 - INFO - Orchestration script ended at 2025-02-15 17:27:24.762675
+2025-02-15 17:45:53,471 - INFO - Orchestration script started at 2025-02-15 17:45:53.471928
+2025-02-15 17:45:53,472 - INFO - Starting task: Get Google News Homepage
+2025-02-15 17:45:54,803 - INFO - Completed task: Get Google News Homepage
+2025-02-15 17:45:54,803 - INFO - Starting task: Parse Google News Articles
+2025-02-15 17:45:54,866 - INFO - ====== WebDriver manager ======
+2025-02-15 17:45:55,911 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:45:56,088 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:45:56,246 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:46:07,532 - INFO - ====== WebDriver manager ======
+2025-02-15 17:46:08,480 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:13,000 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:13,188 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:46:23,554 - INFO - ====== WebDriver manager ======
+2025-02-15 17:46:24,509 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:28,719 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:28,923 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:46:38,646 - INFO - ====== WebDriver manager ======
+2025-02-15 17:46:39,525 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:43,797 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:46:43,960 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:46:55,658 - INFO - ====== WebDriver manager ======
+2025-02-15 17:46:56,589 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:00,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:00,965 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:47:11,515 - INFO - ====== WebDriver manager ======
+2025-02-15 17:47:12,372 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:16,604 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:16,747 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:47:29,185 - INFO - ====== WebDriver manager ======
+2025-02-15 17:47:30,140 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:34,376 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:34,557 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:47:44,577 - INFO - ====== WebDriver manager ======
+2025-02-15 17:47:45,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:49,904 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 17:47:50,077 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 17:47:59,873 - INFO - Completed task: Parse Google News Articles
+2025-02-15 17:47:59,873 - INFO - Starting task: Save Articles
+2025-02-15 17:47:59,926 - INFO - Completed task: Save Articles
+2025-02-15 17:47:59,926 - INFO - Orchestration script ended at 2025-02-15 17:47:59.926060
+2025-02-15 18:52:01,956 - INFO - Orchestration script started at 2025-02-15 18:52:01.956321
+2025-02-15 18:52:01,957 - INFO - Starting task: Get Google News Homepage
+2025-02-15 18:52:02,570 - INFO - Completed task: Get Google News Homepage
+2025-02-15 18:52:02,570 - INFO - Starting task: Parse Google News Articles
+2025-02-15 18:52:02,654 - INFO - ====== WebDriver manager ======
+2025-02-15 18:52:04,028 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:52:04,280 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:52:04,433 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:52:15,242 - INFO - ====== WebDriver manager ======
+2025-02-15 18:52:16,312 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:52:20,621 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:52:20,811 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:52:55,450 - INFO - ====== WebDriver manager ======
+2025-02-15 18:52:56,780 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:53:01,085 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:53:01,219 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:53:11,465 - INFO - ====== WebDriver manager ======
+2025-02-15 18:53:12,395 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:53:16,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:53:16,740 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:53:56,808 - INFO - ====== WebDriver manager ======
+2025-02-15 18:53:57,702 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:01,911 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:02,103 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:54:11,820 - INFO - ====== WebDriver manager ======
+2025-02-15 18:54:12,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:17,024 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:17,182 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:54:28,400 - INFO - ====== WebDriver manager ======
+2025-02-15 18:54:29,500 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:33,751 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:33,917 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:54:44,890 - INFO - ====== WebDriver manager ======
+2025-02-15 18:54:45,745 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:50,049 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:54:50,230 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:55:23,879 - INFO - Completed task: Parse Google News Articles
+2025-02-15 18:55:23,880 - INFO - Starting task: Save Articles
+2025-02-15 18:55:23,926 - INFO - Completed task: Save Articles
+2025-02-15 18:55:23,926 - INFO - Orchestration script ended at 2025-02-15 18:55:23.926643
+2025-02-15 18:56:36,512 - INFO - Orchestration script started at 2025-02-15 18:56:36.512014
+2025-02-15 18:56:36,513 - INFO - Starting task: Get Google News Homepage
+2025-02-15 18:56:37,526 - INFO - Completed task: Get Google News Homepage
+2025-02-15 18:56:37,526 - INFO - Starting task: Parse Google News Articles
+2025-02-15 18:56:37,582 - INFO - ====== WebDriver manager ======
+2025-02-15 18:56:38,474 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:56:38,673 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:56:38,813 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:56:49,280 - INFO - ====== WebDriver manager ======
+2025-02-15 18:56:50,185 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:56:54,404 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:56:54,638 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 18:57:49,620 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:50,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:50,543 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:51,361 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:55,408 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:56,279 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:56,291 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:57,101 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:57,113 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:57,948 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:57,962 - INFO - ====== WebDriver manager ======
+2025-02-15 18:57:58,854 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 18:57:58,865 - INFO - Completed task: Parse Google News Articles
+2025-02-15 18:57:58,865 - INFO - Starting task: Save Articles
+2025-02-15 18:57:58,890 - INFO - Completed task: Save Articles
+2025-02-15 18:57:58,890 - INFO - Orchestration script ended at 2025-02-15 18:57:58.890365
+2025-02-15 20:06:53,261 - INFO - Orchestration script started at 2025-02-15 20:06:53.261367
+2025-02-15 20:06:53,262 - INFO - Starting task: Get Google News Homepage
+2025-02-15 20:06:53,265 - ERROR - Error in task Get and Parse Articles: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023083FD1C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 20:06:53,364 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000023083FD1C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023083FD1C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\Downloads\assgn 1\orchestration.py", line 76, in get_and_parse_articles
+    html = get_google_news_homepage(config.get("google_news_url", "https://news.google.com/"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\Downloads\assgn 1\google_news_scraper.py", line 29, in get_google_news_homepage
+    response = requests.get(url, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023083FD1C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+2025-02-15 20:06:53,365 - WARNING - No articles to process.
+2025-02-15 20:06:53,365 - INFO - Orchestration script ended at 2025-02-15 20:06:53.365684
+2025-02-15 20:08:06,083 - INFO - Orchestration script started at 2025-02-15 20:08:06.083155
+2025-02-15 20:08:06,083 - INFO - Starting task: Get Google News Homepage
+2025-02-15 20:08:07,965 - INFO - Completed task: Get Google News Homepage
+2025-02-15 20:08:07,965 - INFO - Starting task: Parse Google News Articles
+2025-02-15 20:08:08,002 - INFO - ====== WebDriver manager ======
+2025-02-15 20:08:09,145 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:09,624 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:09,794 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:08:18,839 - INFO - ====== WebDriver manager ======
+2025-02-15 20:08:19,786 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:23,970 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:24,208 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:08:33,322 - INFO - ====== WebDriver manager ======
+2025-02-15 20:08:34,281 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:38,478 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:08:38,626 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:09:23,164 - INFO - ====== WebDriver manager ======
+2025-02-15 20:09:24,236 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:09:28,440 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:09:28,592 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:09:57,370 - INFO - ====== WebDriver manager ======
+2025-02-15 20:09:58,220 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:02,424 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:02,589 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:10:11,947 - INFO - ====== WebDriver manager ======
+2025-02-15 20:10:12,842 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:17,085 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:17,263 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:10:32,442 - INFO - ====== WebDriver manager ======
+2025-02-15 20:10:33,352 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:37,567 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:38,895 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:10:46,641 - INFO - ====== WebDriver manager ======
+2025-02-15 20:10:47,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:51,791 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:10:51,956 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:12:56,970 - INFO - Completed task: Parse Google News Articles
+2025-02-15 20:12:56,972 - INFO - Starting task: Save Articles
+2025-02-15 20:12:56,985 - INFO - Completed task: Save Articles
+2025-02-15 20:12:56,985 - INFO - Orchestration script ended at 2025-02-15 20:12:56.985818
+2025-02-15 20:45:51,825 - INFO - Orchestration script started at 2025-02-15 20:45:51.825207
+2025-02-15 20:45:51,825 - INFO - Starting task: Get Google News Homepage
+2025-02-15 20:45:53,304 - INFO - Completed task: Get Google News Homepage
+2025-02-15 20:45:53,304 - INFO - Starting task: Parse Google News Articles
+2025-02-15 20:45:53,356 - INFO - ====== WebDriver manager ======
+2025-02-15 20:45:54,512 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:45:54,743 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:45:54,913 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:46:03,682 - INFO - ====== WebDriver manager ======
+2025-02-15 20:46:04,671 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:08,946 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:09,119 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:46:18,058 - INFO - ====== WebDriver manager ======
+2025-02-15 20:46:18,880 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:23,067 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:23,220 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:46:31,515 - INFO - ====== WebDriver manager ======
+2025-02-15 20:46:32,619 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:36,821 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:46:37,212 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:47:14,357 - INFO - ====== WebDriver manager ======
+2025-02-15 20:47:15,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:47:19,528 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:47:19,695 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:47:36,211 - INFO - ====== WebDriver manager ======
+2025-02-15 20:47:37,158 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:47:41,401 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:47:41,605 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:48:15,299 - INFO - ====== WebDriver manager ======
+2025-02-15 20:48:16,253 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:48:20,504 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:48:20,664 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:48:33,617 - INFO - ====== WebDriver manager ======
+2025-02-15 20:48:34,581 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:48:38,783 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 20:48:38,933 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 20:49:29,780 - INFO - Completed task: Parse Google News Articles
+2025-02-15 20:49:29,781 - INFO - Starting task: Save Articles
+2025-02-15 20:49:29,805 - INFO - Completed task: Save Articles
+2025-02-15 20:49:29,805 - INFO - Orchestration script ended at 2025-02-15 20:49:29.805253
+2025-02-15 21:48:50,675 - INFO - Orchestration script started at 2025-02-15 21:48:50.675278
+2025-02-15 21:48:50,689 - INFO - Starting task: Get Google News Homepage
+2025-02-15 21:48:52,383 - INFO - Completed task: Get Google News Homepage
+2025-02-15 21:48:52,383 - INFO - Starting task: Parse Google News Articles
+2025-02-15 21:48:52,469 - INFO - ====== WebDriver manager ======
+2025-02-15 21:48:53,617 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:48:53,896 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:48:54,060 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:49:04,723 - INFO - ====== WebDriver manager ======
+2025-02-15 21:49:05,666 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:49:09,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:49:10,097 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:51:06,147 - INFO - ====== WebDriver manager ======
+2025-02-15 21:51:07,196 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:51:11,426 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:51:11,594 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:51:25,610 - INFO - ====== WebDriver manager ======
+2025-02-15 21:51:26,649 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:51:30,867 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:51:31,059 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:52:03,516 - INFO - ====== WebDriver manager ======
+2025-02-15 21:52:04,534 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:52:08,816 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:52:09,025 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:52:20,719 - INFO - ====== WebDriver manager ======
+2025-02-15 21:52:21,762 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:52:25,992 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:52:26,186 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:53:34,871 - INFO - ====== WebDriver manager ======
+2025-02-15 21:53:35,783 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:53:40,241 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:53:40,406 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:53:53,789 - INFO - ====== WebDriver manager ======
+2025-02-15 21:53:54,864 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:53:59,125 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 21:53:59,406 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 21:56:05,341 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=53438): Read timed out. (read timeout=120)")': /session/de98411a180660ee489c098084f3d2e0/url
+2025-02-15 21:56:08,543 - INFO - Completed task: Parse Google News Articles
+2025-02-15 21:56:08,543 - INFO - Starting task: Save Articles
+2025-02-15 21:56:08,575 - INFO - Completed task: Save Articles
+2025-02-15 21:56:08,575 - INFO - Orchestration script ended at 2025-02-15 21:56:08.575974
+2025-02-15 22:45:51,043 - INFO - Orchestration script started at 2025-02-15 22:45:51.043738
+2025-02-15 22:45:51,044 - INFO - Starting task: Get Google News Homepage
+2025-02-15 22:45:51,703 - INFO - Completed task: Get Google News Homepage
+2025-02-15 22:45:51,703 - INFO - Starting task: Parse Google News Articles
+2025-02-15 22:45:51,780 - INFO - ====== WebDriver manager ======
+2025-02-15 22:45:52,770 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:45:53,693 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:45:53,866 - INFO - ====== WebDriver manager ======
+2025-02-15 22:45:54,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:45:55,151 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:45:55,352 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 22:46:13,139 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:14,205 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:14,404 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:15,369 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:20,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:20,720 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 22:46:33,922 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:34,825 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:40,090 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:40,333 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:41,246 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:41,403 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:42,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:42,609 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:43,751 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 22:46:52,997 - INFO - ====== WebDriver manager ======
+2025-02-15 22:46:53,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:58,161 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 22:46:58,386 - INFO - Completed task: Parse Google News Articles
+2025-02-15 22:46:58,386 - INFO - Starting task: Save Articles
+2025-02-15 22:46:58,423 - INFO - Completed task: Save Articles
+2025-02-15 22:46:58,423 - INFO - Orchestration script ended at 2025-02-15 22:46:58.423727
+2025-02-15 23:45:51,641 - INFO - Orchestration script started at 2025-02-15 23:45:51.641620
+2025-02-15 23:45:51,642 - INFO - Starting task: Get Google News Homepage
+2025-02-15 23:45:52,536 - INFO - Completed task: Get Google News Homepage
+2025-02-15 23:45:52,536 - INFO - Starting task: Parse Google News Articles
+2025-02-15 23:45:52,594 - INFO - ====== WebDriver manager ======
+2025-02-15 23:45:53,627 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:45:53,880 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:45:54,071 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:46:06,595 - INFO - ====== WebDriver manager ======
+2025-02-15 23:46:07,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:11,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:12,069 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:46:24,651 - INFO - ====== WebDriver manager ======
+2025-02-15 23:46:25,588 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:29,832 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:30,103 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:46:47,614 - INFO - ====== WebDriver manager ======
+2025-02-15 23:46:48,544 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:52,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:46:53,051 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:48:10,109 - INFO - ====== WebDriver manager ======
+2025-02-15 23:48:11,105 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:48:15,355 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:48:15,575 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:48:33,651 - INFO - ====== WebDriver manager ======
+2025-02-15 23:48:34,654 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:48:38,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:48:39,012 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:50:20,459 - INFO - ====== WebDriver manager ======
+2025-02-15 23:50:21,502 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:50:25,778 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:50:25,967 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:50:40,794 - INFO - ====== WebDriver manager ======
+2025-02-15 23:50:41,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:50:46,128 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-15 23:50:46,324 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-15 23:51:18,994 - INFO - Completed task: Parse Google News Articles
+2025-02-15 23:51:18,994 - INFO - Starting task: Save Articles
+2025-02-15 23:51:19,046 - INFO - Completed task: Save Articles
+2025-02-15 23:51:19,046 - INFO - Orchestration script ended at 2025-02-15 23:51:19.046402
+2025-02-16 09:58:11,829 - INFO - Orchestration script started at 2025-02-16 09:58:11.829749
+2025-02-16 09:58:11,830 - INFO - Starting task: Get Google News Homepage
+2025-02-16 09:58:11,839 - ERROR - Error in task Get and Parse Articles: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DB3FD81C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-16 09:58:12,052 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001DB3FD81C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DB3FD81C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Preethi\Downloads\assgn 1\orchestration.py", line 76, in get_and_parse_articles
+    html = get_google_news_homepage(config.get("google_news_url", "https://news.google.com/"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\Downloads\assgn 1\google_news_scraper.py", line 29, in get_google_news_homepage
+    response = requests.get(url, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Preethi\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DB3FD81C10>: Failed to resolve 'news.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+2025-02-16 09:58:12,052 - WARNING - No articles to process.
+2025-02-16 09:58:12,052 - INFO - Orchestration script ended at 2025-02-16 09:58:12.052629
+2025-02-16 10:45:51,914 - INFO - Orchestration script started at 2025-02-16 10:45:51.913453
+2025-02-16 10:45:51,938 - INFO - Starting task: Get Google News Homepage
+2025-02-16 10:45:54,821 - INFO - Completed task: Get Google News Homepage
+2025-02-16 10:45:54,821 - INFO - Starting task: Parse Google News Articles
+2025-02-16 10:45:54,898 - INFO - ====== WebDriver manager ======
+2025-02-16 10:45:56,197 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:45:56,916 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:45:57,334 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:45:58,886 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-16 10:45:58,890 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-16 10:45:58,890 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-16 10:46:00,523 - INFO - Driver downloading response is 200
+2025-02-16 10:47:23,620 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:47:24,566 - INFO - Driver has been saved in cache [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-16 10:47:35,353 - INFO - ====== WebDriver manager ======
+2025-02-16 10:47:36,558 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:47:40,824 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:47:40,955 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:47:49,938 - INFO - ====== WebDriver manager ======
+2025-02-16 10:47:51,058 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:47:55,345 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:47:55,495 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:48:06,280 - INFO - ====== WebDriver manager ======
+2025-02-16 10:48:07,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:11,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:12,026 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:48:22,202 - INFO - ====== WebDriver manager ======
+2025-02-16 10:48:23,296 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:27,552 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:27,726 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:48:38,131 - INFO - ====== WebDriver manager ======
+2025-02-16 10:48:39,516 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:43,770 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:48:43,927 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:49:19,208 - INFO - ====== WebDriver manager ======
+2025-02-16 10:49:20,402 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:49:24,609 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:49:24,794 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:50:03,071 - INFO - ====== WebDriver manager ======
+2025-02-16 10:50:04,376 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:50:08,693 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 10:50:08,847 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 10:50:17,319 - INFO - Completed task: Parse Google News Articles
+2025-02-16 10:50:17,320 - INFO - Starting task: Save Articles
+2025-02-16 10:50:17,344 - INFO - Completed task: Save Articles
+2025-02-16 10:50:17,344 - INFO - Orchestration script ended at 2025-02-16 10:50:17.344953
+2025-02-16 11:45:51,212 - INFO - Orchestration script started at 2025-02-16 11:45:51.212871
+2025-02-16 11:45:51,212 - INFO - Starting task: Get Google News Homepage
+2025-02-16 11:45:53,781 - INFO - Completed task: Get Google News Homepage
+2025-02-16 11:45:53,781 - INFO - Starting task: Parse Google News Articles
+2025-02-16 11:45:53,838 - INFO - ====== WebDriver manager ======
+2025-02-16 11:45:54,740 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:45:55,359 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:45:56,128 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:46:13,869 - INFO - ====== WebDriver manager ======
+2025-02-16 11:46:14,745 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:46:19,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:46:20,152 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:46:40,080 - INFO - ====== WebDriver manager ======
+2025-02-16 11:46:41,208 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:46:45,490 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:46:46,320 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:47:01,156 - INFO - ====== WebDriver manager ======
+2025-02-16 11:47:02,023 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:51:41,486 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:53:54,380 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:54:02,751 - INFO - ====== WebDriver manager ======
+2025-02-16 11:54:03,851 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:54:08,149 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:54:08,277 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:54:18,619 - INFO - ====== WebDriver manager ======
+2025-02-16 11:54:19,530 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:54:23,753 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:54:23,927 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:54:58,323 - INFO - ====== WebDriver manager ======
+2025-02-16 11:54:59,241 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:55:03,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:55:03,678 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:55:20,953 - INFO - ====== WebDriver manager ======
+2025-02-16 11:55:21,828 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:55:26,082 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 11:55:26,222 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 11:55:59,922 - INFO - Completed task: Parse Google News Articles
+2025-02-16 11:55:59,923 - INFO - Starting task: Save Articles
+2025-02-16 11:55:59,953 - INFO - Completed task: Save Articles
+2025-02-16 11:55:59,953 - INFO - Orchestration script ended at 2025-02-16 11:55:59.953826
+2025-02-16 13:26:31,404 - INFO - Orchestration script started at 2025-02-16 13:26:31.404180
+2025-02-16 13:26:31,405 - INFO - Starting task: Get Google News Homepage
+2025-02-16 13:26:32,540 - INFO - Completed task: Get Google News Homepage
+2025-02-16 13:26:32,540 - INFO - Starting task: Parse Google News Articles
+2025-02-16 13:26:32,611 - INFO - ====== WebDriver manager ======
+2025-02-16 13:26:33,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:26:34,414 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:26:34,585 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:26:49,271 - INFO - ====== WebDriver manager ======
+2025-02-16 13:26:54,890 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:26:55,131 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:26:55,288 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:27:36,078 - INFO - ====== WebDriver manager ======
+2025-02-16 13:27:37,312 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:27:41,675 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:27:42,444 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:28:04,638 - INFO - ====== WebDriver manager ======
+2025-02-16 13:28:05,628 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:09,854 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:10,068 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:28:27,007 - INFO - ====== WebDriver manager ======
+2025-02-16 13:28:28,387 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:32,890 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:33,137 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:28:44,652 - INFO - ====== WebDriver manager ======
+2025-02-16 13:28:45,726 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:50,262 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:28:50,527 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:29:02,392 - INFO - ====== WebDriver manager ======
+2025-02-16 13:29:03,940 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:29:08,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:29:08,520 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:29:20,927 - INFO - ====== WebDriver manager ======
+2025-02-16 13:29:22,317 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:29:26,641 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:29:26,849 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:30:01,381 - INFO - Completed task: Parse Google News Articles
+2025-02-16 13:30:01,381 - INFO - Starting task: Save Articles
+2025-02-16 13:30:01,410 - INFO - Completed task: Save Articles
+2025-02-16 13:30:01,411 - INFO - Orchestration script ended at 2025-02-16 13:30:01.411131
+2025-02-16 13:50:08,772 - INFO - Orchestration script started at 2025-02-16 13:50:08.772904
+2025-02-16 13:50:08,775 - INFO - Starting task: Get Google News Homepage
+2025-02-16 13:50:09,607 - INFO - Completed task: Get Google News Homepage
+2025-02-16 13:50:09,607 - INFO - Starting task: Parse Google News Articles
+2025-02-16 13:50:09,715 - INFO - ====== WebDriver manager ======
+2025-02-16 13:50:10,840 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:50:11,110 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:50:11,291 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:50:29,686 - INFO - ====== WebDriver manager ======
+2025-02-16 13:50:31,109 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:50:31,301 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:50:31,465 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:50:51,500 - INFO - ====== WebDriver manager ======
+2025-02-16 13:50:54,365 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:50:59,321 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:00,895 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:51:14,574 - INFO - ====== WebDriver manager ======
+2025-02-16 13:51:15,884 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:20,127 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:20,290 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:51:30,918 - INFO - ====== WebDriver manager ======
+2025-02-16 13:51:31,922 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:36,222 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:36,378 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:51:48,385 - INFO - ====== WebDriver manager ======
+2025-02-16 13:51:49,310 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:53,514 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:51:53,802 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:52:31,253 - INFO - ====== WebDriver manager ======
+2025-02-16 13:52:32,208 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:52:36,749 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:52:37,546 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:52:50,922 - INFO - ====== WebDriver manager ======
+2025-02-16 13:52:52,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:52:56,892 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 13:52:57,066 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 13:53:07,319 - INFO - Completed task: Parse Google News Articles
+2025-02-16 13:53:07,320 - INFO - Starting task: Save Articles
+2025-02-16 13:53:07,345 - INFO - Completed task: Save Articles
+2025-02-16 13:53:07,345 - INFO - Orchestration script ended at 2025-02-16 13:53:07.345706
+2025-02-16 14:46:07,962 - INFO - Orchestration script started at 2025-02-16 14:46:07.962962
+2025-02-16 14:46:07,976 - INFO - Starting task: Get Google News Homepage
+2025-02-16 14:46:09,133 - INFO - Completed task: Get Google News Homepage
+2025-02-16 14:46:09,134 - INFO - Starting task: Parse Google News Articles
+2025-02-16 14:46:09,231 - INFO - ====== WebDriver manager ======
+2025-02-16 14:46:10,472 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:10,791 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:10,941 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:46:24,453 - INFO - ====== WebDriver manager ======
+2025-02-16 14:46:25,421 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:25,568 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:25,743 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:46:36,210 - INFO - ====== WebDriver manager ======
+2025-02-16 14:46:37,320 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:41,524 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:41,695 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:46:52,869 - INFO - ====== WebDriver manager ======
+2025-02-16 14:46:53,819 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:58,041 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:46:58,187 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:47:06,378 - INFO - ====== WebDriver manager ======
+2025-02-16 14:47:07,328 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:11,539 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:11,700 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:47:21,027 - INFO - ====== WebDriver manager ======
+2025-02-16 14:47:22,053 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:26,246 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:26,408 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:47:43,418 - INFO - ====== WebDriver manager ======
+2025-02-16 14:47:44,356 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:48,588 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:47:48,795 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:48:25,693 - INFO - ====== WebDriver manager ======
+2025-02-16 14:48:26,709 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:48:31,087 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 14:48:31,268 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 14:48:41,625 - INFO - Completed task: Parse Google News Articles
+2025-02-16 14:48:41,626 - INFO - Starting task: Save Articles
+2025-02-16 14:48:41,652 - INFO - Completed task: Save Articles
+2025-02-16 14:48:41,652 - INFO - Orchestration script ended at 2025-02-16 14:48:41.652665
+2025-02-16 15:46:08,017 - INFO - Orchestration script started at 2025-02-16 15:46:08.016377
+2025-02-16 15:46:08,033 - INFO - Starting task: Get Google News Homepage
+2025-02-16 15:46:08,954 - INFO - Completed task: Get Google News Homepage
+2025-02-16 15:46:08,954 - INFO - Starting task: Parse Google News Articles
+2025-02-16 15:46:09,011 - INFO - ====== WebDriver manager ======
+2025-02-16 15:46:10,075 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:46:10,303 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:46:10,562 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:46:32,344 - INFO - ====== WebDriver manager ======
+2025-02-16 15:46:33,370 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:46:33,524 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:46:33,684 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:47:10,376 - INFO - ====== WebDriver manager ======
+2025-02-16 15:47:11,310 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:15,524 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:15,667 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:47:26,321 - INFO - ====== WebDriver manager ======
+2025-02-16 15:47:27,268 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:31,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:31,722 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:47:42,595 - INFO - ====== WebDriver manager ======
+2025-02-16 15:47:43,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:47,736 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:47:48,113 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:47:59,015 - INFO - ====== WebDriver manager ======
+2025-02-16 15:47:59,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:48:04,199 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:48:04,354 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:48:42,271 - INFO - ====== WebDriver manager ======
+2025-02-16 15:48:43,231 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:48:48,660 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:48:48,837 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:49:31,328 - INFO - ====== WebDriver manager ======
+2025-02-16 15:49:32,525 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:49:36,754 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 15:49:36,935 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 15:50:16,363 - INFO - Completed task: Parse Google News Articles
+2025-02-16 15:50:16,364 - INFO - Starting task: Save Articles
+2025-02-16 15:50:16,392 - INFO - Completed task: Save Articles
+2025-02-16 15:50:16,392 - INFO - Orchestration script ended at 2025-02-16 15:50:16.392226
+2025-02-16 16:45:56,798 - INFO - Orchestration script started at 2025-02-16 16:45:56.798844
+2025-02-16 16:45:56,801 - INFO - Starting task: Get Google News Homepage
+2025-02-16 16:45:58,599 - INFO - Completed task: Get Google News Homepage
+2025-02-16 16:45:58,599 - INFO - Starting task: Parse Google News Articles
+2025-02-16 16:45:58,725 - INFO - ====== WebDriver manager ======
+2025-02-16 16:46:00,234 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:46:00,494 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:46:00,675 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:47:18,499 - INFO - ====== WebDriver manager ======
+2025-02-16 16:47:19,446 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:47:19,650 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:47:19,807 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:47:59,246 - INFO - ====== WebDriver manager ======
+2025-02-16 16:48:00,511 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:04,769 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:05,961 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:48:17,500 - INFO - ====== WebDriver manager ======
+2025-02-16 16:48:18,367 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:22,573 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:22,741 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:48:30,903 - INFO - ====== WebDriver manager ======
+2025-02-16 16:48:31,928 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:36,121 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:36,282 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:48:45,913 - INFO - ====== WebDriver manager ======
+2025-02-16 16:48:47,720 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:51,953 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:48:52,177 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:49:02,217 - INFO - ====== WebDriver manager ======
+2025-02-16 16:49:03,163 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:49:07,412 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:49:07,584 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:49:44,503 - INFO - ====== WebDriver manager ======
+2025-02-16 16:49:45,393 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:49:49,613 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-16 16:49:49,783 - INFO - Driver [C:\Users\Preethi\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-16 16:49:58,725 - INFO - Completed task: Parse Google News Articles
+2025-02-16 16:49:58,725 - INFO - Starting task: Save Articles
+2025-02-16 16:49:58,766 - INFO - Completed task: Save Articles
+2025-02-16 16:49:58,766 - INFO - Orchestration script ended at 2025-02-16 16:49:58.766465

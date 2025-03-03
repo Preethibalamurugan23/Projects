@@ -1,0 +1,116 @@
+[2025-02-18T14:58:28.881+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-18T14:58:28.902+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: google_news_scraper.get_and_parse_articles manual__2025-02-18T14:58:18.190192+00:00 [queued]>
+[2025-02-18T14:58:28.912+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: google_news_scraper.get_and_parse_articles manual__2025-02-18T14:58:18.190192+00:00 [queued]>
+[2025-02-18T14:58:28.913+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-02-18T14:58:28.926+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): get_and_parse_articles> on 2025-02-18 14:58:18.190192+00:00
+[2025-02-18T14:58:28.935+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=162) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-18T14:58:28.937+0000] {standard_task_runner.py:72} INFO - Started process 189 to run task
+[2025-02-18T14:58:28.937+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'google_news_scraper', 'get_and_parse_articles', 'manual__2025-02-18T14:58:18.190192+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dag2.py', '--cfg-path', '/tmp/tmpdgitktrh']
+[2025-02-18T14:58:28.938+0000] {standard_task_runner.py:105} INFO - Job 20: Subtask get_and_parse_articles
+[2025-02-18T14:58:28.990+0000] {task_command.py:467} INFO - Running <TaskInstance: google_news_scraper.get_and_parse_articles manual__2025-02-18T14:58:18.190192+00:00 [running]> on host 695150105d31
+[2025-02-18T14:58:29.067+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='google_news_scraper' AIRFLOW_CTX_TASK_ID='get_and_parse_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-02-18T14:58:18.190192+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-18T14:58:18.190192+00:00'
+[2025-02-18T14:58:29.071+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-18T14:58:29.073+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-18T14:58:29.074+0000] {logging_mixin.py:190} INFO - Current task name:get_and_parse_articles state:running start_date:2025-02-18 14:58:28.903073+00:00
+[2025-02-18T14:58:29.074+0000] {logging_mixin.py:190} INFO - Dag name:google_news_scraper and current dag run status:running
+[2025-02-18T14:58:29.075+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-18T14:58:30.057+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMihgJBVV95cUxORTBZbDBuaHpVTVl6bWczTzJZWUZZQlptYmpwWVhnU2cxYXMyQ3pEWTRPZHYwNGcwR1BBSEJRMzB3Vi0zNnp4UHY3UmFmdG43aDFNcURIZFBQN2NnLUV2SkxfUjltcWxiSGJYWG1WY1hOaUxIcTdCWjktdnNiUmtvRHBxMFpMekRoMXdZTjVSSnBkbDhwUzdDN2E5TTlTREQtSWp0bmV2NWhpQ2VCNjZBbzhCR0VEY1dFVC1BcEZNVUI3RURLNUxObEc0QTdwNkNSSGpXSG1EbnV4cjhfdzh5TDFOWG9SeGpxUEUxMmRiNDFkVkszQ0gxN1lwc0JGaUtWZ2J6ajV3?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:58:30.058+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:58:30.073+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:30.399+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:58:30.751+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:58:36.871+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:36.079+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:36.438+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:58:36.453+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:58:36.720+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_1.jpg
+[2025-02-18T14:58:36.722+0000] {logging_mixin.py:190} INFO - New article added with ID: 1
+[2025-02-18T14:58:36.723+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMixAFBVV95cUxOdlRyczNXc3B6RW5jN2ZuNjhkeHRzZGdzVVZLYnA4WGtpTVE3VmJwYThGeTZwemdnZTkxcVowNTJueFN4YV94S28xSjlpZ0pndF9ZWU5nY1JmMU9OVmpKN3l1YndQdXZfY1J0VjdsRl9qaDE2NE5pbHVMNDVkb0drLWM1TEpqdFYtNXFkUWpwTVZJMFZmMUtCZDhJdWJHWlVVMEdTdEVxOXR3cUFwQ3dYZU5hQVdKUzYxWXNBMVF3enVMOTFo0gHKAUFVX3lxTFBmRkVyWU11M0JEMGdvX3VzNllIODd5WHlNTTFNUGRCWWwxUlM3RnBYdk10OGFlSERnc1phaWFqWGZxVTFTa1JZalcyOXhSLVdNNnBiQVZFRkc0TDRwb2UwaERTVFBGVGNwNUlQOXRnZ2tFT1dndWlBM052SmdGanNXMGs1cFM1b3l6T1hyQ21ZVkxycXpXOGp3TXYxQmRWbnJWYUZsV0J3VzBNRV9OT1JKaG9WU2VSTEFlTVlxc1VYSXp1LWJQa2YwWFE?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:58:36.723+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:58:36.738+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:37.129+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:58:37.842+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:58:42.084+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:42.698+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:43.183+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:58:43.196+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:58:43.805+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_2.jpg
+[2025-02-18T14:58:43.807+0000] {logging_mixin.py:190} INFO - New article added with ID: 2
+[2025-02-18T14:58:43.807+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMipgFBVV95cUxNMzBOTGxDUjVlV3BiTFY1Vjl4eHRsYnp0WlBESW1qYXROVUVLbEFOUndEdEtxeUpUelRjUjdlcEM0dVhjR1E1QTlKWHdvTEZlazY1MXV0TGY1RDFfbURhblNDTkVuZFpoN1pOWGlsSzh2QW1yZzVYaTlnZ3RrZWIyYnJoY3pQdGlhcHQxcmc3OTNGS0ZWYUtaOXFvS0o0TENrR09YVFdn?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:58:43.810+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:58:43.826+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:44.464+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:58:44.995+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:58:48.261+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:48.702+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:49.241+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:58:49.255+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:58:49.708+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_3.jpg
+[2025-02-18T14:58:49.709+0000] {logging_mixin.py:190} INFO - New article added with ID: 3
+[2025-02-18T14:58:49.710+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMiuAFBVV95cUxQdmlsaGxCUFNWd2o1VGxmRHF3MDRqeUw0RzBWVHIyV2I2Z09OYnBOMEplUHlJcExLVVk3aWo5ZDVvWVVGdEMzN1Zuam00b1JBOFl6bGR0OUhQcXhTNGJObk93RmxlWlg2eU90cFliaERZN05lVWF5SlVMMHBXVVp2YVVkS0tDcHhRNmhQQ1VFZnRXaFVXNzltUUt1MlpzMHhGTFhkSnZmQ0NSbVFXYXN3STRIYjVoUXJN?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:58:49.710+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:58:49.728+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:50.089+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:58:50.481+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:58:53.755+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:54.241+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:54.583+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:58:54.598+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:58:54.770+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_4.jpg
+[2025-02-18T14:58:54.771+0000] {logging_mixin.py:190} INFO - New article added with ID: 4
+[2025-02-18T14:58:54.772+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMi4wFBVV95cUxPTVhOb1lrc0dZbHNZZS1QVjl5WUlFbnNieS1tdnVjZnRJblBLVUprVU94aDljNkJiemw4LVVrWk1JcldBVkNPNTlnWThzZlhtbUNVUTIxb0YtN2lCcGI4YVFvWlR0VXdXSkIyNm9fLUNLVlEzYWJSVEtIQVV0OGlXNV9OcXAyTVJnNFdISUtjQ2Ezd1NCTmVMRXJCbW9GeFFjaExIbnUtb2xxaG9FcWwwTzc0Tnl4NkNsX2stbV96QUNsSVFiemhtOVV6Q3g0ellzeENnSjRueThPYmdPYXJyZFdwTdIB6AFBVV95cUxQNThzVnk1bFhibV9ZNnl2M2ZTajhkN3ZlM3hMR2ZISlFWWDFJaExQMWtoRWN5NldLUmJfTGE1NEx6R19jUElVTnNEaXNZWXpZSDdOcjNLNjJfamE1NzlZRVlRTGppTEtYa29iRV9MQjg2YnBqZW5wQldzTUxaR0l6RjFtWFFXMFN5U2hPMTNRWHFLS3RLellKbGc0Wk03RWNkR2tSVU1UYTNJUTFzQjlsMFdvUW9FT3otYW02b1laWm1SbXU5SHJOeXRXcUpweDYyMHlqa04zYnpZam9Qa2d3eU8xbzhhLW9l?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:58:54.772+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:58:54.785+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:58:55.109+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:58:55.417+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:59:00.272+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:00.746+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:01.154+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:59:01.166+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:59:01.369+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_5.jpg
+[2025-02-18T14:59:01.371+0000] {logging_mixin.py:190} INFO - New article added with ID: 5
+[2025-02-18T14:59:01.373+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMi_gFBVV95cUxPUzFvMThLeGk1RzJRa2hWeVlDNGFFSkkxTlA1VWNBa0hZenAyRFJ6Z3NubHBuSlNucjRTT3hMM1VycVRLbk5SZ29tWTJ5M2xYYlQyS3FxUmZ6SEFhaWVKbVJvMlVzS01vSW9ybTBMdnBEcmctNEJ6UTRkTXdUUko0eVppZndMVFlyYWxvZG9lR3oxbXBMM29DYXNkYUxWR3FpWDQwNUltaHAxeTFjUXdHeUZ6MlNBdlpid0dGRDExTm9JeWlOaWlieXZsTFJadW9pVVl3bTFKRFYxd0RTSzVPSFBrLWJSR0Z2UlNETjlwMGVRV0NfZ3o1Tk4tNmVSQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:59:01.374+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:59:01.396+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:01.760+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:59:02.114+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:59:05.349+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:05.976+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:06.350+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:59:06.363+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:59:06.717+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_6.jpg
+[2025-02-18T14:59:06.719+0000] {logging_mixin.py:190} INFO - New article added with ID: 6
+[2025-02-18T14:59:06.720+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMi2gFBVV95cUxPSkdNcThXYTExR0pfYjRhbU1sdmhFSWRrV1ZFN29RUDAyUWM3WElOUGJwaXNBYmdRSGFpcVFUcUNXWW5Za3o5bzVUaklLZVpuZ25wM1M5RWFZMkRMSmFreEFid3JMc1VlZFpubGxiRUZFRG1vTGh6Vkp4YVRiaF9rYVJIYjQ4clNVMDFaMWljeUVkd1NyUjV3eTJGNWNvdVF0SnZGZWk5REJOeUM5YXc0R21jTHp4cHpJR0VXZ2hsWktXRVdJS1RDTmFCcE9uT1M1bVFPLUgxb2JqQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:59:06.721+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:59:06.738+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:07.061+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:59:07.507+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:59:14.356+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:14.841+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:15.286+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:59:15.299+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:59:15.724+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_7.jpg
+[2025-02-18T14:59:15.725+0000] {logging_mixin.py:190} INFO - New article added with ID: 7
+[2025-02-18T14:59:15.726+0000] {logging_mixin.py:190} INFO - https://news.google.com/read/CBMizgFBVV95cUxQUDFBWDVyNmpxQzVFVldOU3RYNVhpSDFLNkxQWHJXenBwNjBTZDJRTlhSZTAzMlNZREkyRDNOaE5aRVp1VktTU0pyc2xtWmR3a0V4U0laUTVPb2ZMdmcycUZQbTlscHlRd2lXT245T0lzU3h4TkhXUHVFYnhwTXZ4SVRsbFQ3R0YwckwtM1gyRzdZMmdtbDB2WWxJcUl2NEsySTJkZ2toLXo3VDFrUWhDS3pva2pPS2duMGVZdTRrMk00amNjWEVDNFdfamR1Z9IB1gFBVV95cUxPOXNXS3pQQlhQZlhtVHNQeEV3TzdSdHV1OVc2alhlWTh3MzNhcDh0ZmNWbEllRlBSMy1ZSkdMbU9iU1pGeFU3ejd1Mk9kbWN5RUJLbS1YVlJtVndmM3VIZGNuYVNqcnlTNHVEcGtTRDMxeFFmbWp1SnpCcUh6OGtYcjQ0OXkzRG5PQW9MTDNnUWtVLVRXRWNHMVhtSkI4OUprMTktMUFCNS10OHNNcFM3QjlqLS1sX2VNREtoVlZlcWxpd1pERFlVbUlDY2FTUGlPS3JLWEtR?hl=en-IN&gl=IN&ceid=IN%3Aen
+[2025-02-18T14:59:15.726+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-18T14:59:15.745+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:16.136+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-18T14:59:16.497+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-18T14:59:19.489+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:20.423+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-18T14:59:21.003+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-18T14:59:21.018+0000] {logging_mixin.py:190} INFO - Error with Selenium: Message: Service /home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+[2025-02-18T14:59:21.797+0000] {logging_mixin.py:190} INFO - [INFO] Downloaded thumbnail: thumbnail_8.jpg
+[2025-02-18T14:59:21.798+0000] {logging_mixin.py:190} INFO - New article added with ID: 8
+[2025-02-18T14:59:21.836+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-18T14:59:21.844+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-18T14:59:21.845+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=google_news_scraper, task_id=get_and_parse_articles, run_id=manual__2025-02-18T14:58:18.190192+00:00, execution_date=20250218T145818, start_date=20250218T145828, end_date=20250218T145921
+[2025-02-18T14:59:21.867+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-18T14:59:21.868+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-18T14:59:21.868+0000] {logging_mixin.py:190} INFO - Dag name:google_news_scraper queued_at:2025-02-18 14:58:18.225676+00:00
+[2025-02-18T14:59:21.869+0000] {logging_mixin.py:190} INFO - Task hostname:695150105d31 operator:PythonOperator
+[2025-02-18T14:59:21.893+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-18T14:59:21.912+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-18T14:59:21.914+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

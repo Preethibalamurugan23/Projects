@@ -1,0 +1,336 @@
+[2025-02-20T13:41:09.916+0000] {processor.py:186} INFO - Started process (PID=4953) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:09.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:41:09.921+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:09.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:13.068+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:13.155+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:13.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:41:13.262+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:13.260+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:41:13.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 3.480 seconds
+[2025-02-20T13:41:43.523+0000] {processor.py:186} INFO - Started process (PID=5038) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:43.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:41:43.527+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:43.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:44.251+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:41:44.275+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:44.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:41:44.297+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:41:44.297+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:41:44.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.798 seconds
+[2025-02-20T13:42:14.554+0000] {processor.py:186} INFO - Started process (PID=5114) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:14.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:42:14.557+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:14.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:15.288+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:15.312+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:15.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:42:15.336+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:15.336+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:42:15.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.815 seconds
+[2025-02-20T13:42:45.561+0000] {processor.py:186} INFO - Started process (PID=5195) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:45.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:42:45.565+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:45.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:46.456+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:42:46.488+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:46.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:42:46.529+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:42:46.529+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:42:46.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 1.008 seconds
+[2025-02-20T13:43:16.874+0000] {processor.py:186} INFO - Started process (PID=5272) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:16.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:43:16.876+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:16.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:17.605+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:17.628+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:17.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:43:17.655+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:17.654+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:43:17.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.810 seconds
+[2025-02-20T13:43:48.690+0000] {processor.py:186} INFO - Started process (PID=5351) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:48.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:43:48.693+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:48.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:49.475+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:43:49.501+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:49.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:43:49.526+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:43:49.526+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:43:49.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.869 seconds
+[2025-02-20T13:44:20.250+0000] {processor.py:186} INFO - Started process (PID=5427) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:20.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:44:20.253+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:20.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:20.882+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:20.902+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:20.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:44:20.926+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:20.926+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:44:20.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.700 seconds
+[2025-02-20T13:44:51.196+0000] {processor.py:186} INFO - Started process (PID=5507) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:51.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:44:51.198+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:51.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:51.905+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:44:51.928+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:51.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:44:52.200+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:44:52.199+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:44:52.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 1.029 seconds
+[2025-02-20T13:45:22.727+0000] {processor.py:186} INFO - Started process (PID=5585) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:22.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:45:22.730+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:22.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:23.402+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:23.423+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:23.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:45:23.446+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:23.446+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:45:23.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.746 seconds
+[2025-02-20T13:45:53.514+0000] {processor.py:186} INFO - Started process (PID=5664) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:53.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:45:53.517+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:53.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:54.111+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:45:54.129+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:54.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:45:54.313+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:45:54.313+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:45:54.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.823 seconds
+[2025-02-20T13:46:24.539+0000] {processor.py:186} INFO - Started process (PID=5744) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:24.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:46:24.542+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:24.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:25.183+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:25.205+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:25.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:46:25.229+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:25.229+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:46:25.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.717 seconds
+[2025-02-20T13:46:55.365+0000] {processor.py:186} INFO - Started process (PID=5825) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:55.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:46:55.367+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:55.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:55.899+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:46:55.917+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:55.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:46:56.082+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:46:56.082+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:46:56.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.740 seconds
+[2025-02-20T13:47:26.571+0000] {processor.py:186} INFO - Started process (PID=5906) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:26.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:47:26.574+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:26.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:27.868+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:27.898+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:27.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:47:27.936+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:27.936+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:47:28.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 1.632 seconds
+[2025-02-20T13:47:58.342+0000] {processor.py:186} INFO - Started process (PID=5984) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:58.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:47:58.345+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:58.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:59.364+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:47:59.390+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:59.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:47:59.421+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:47:59.420+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:47:59.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 1.324 seconds
+[2025-02-20T13:48:29.876+0000] {processor.py:186} INFO - Started process (PID=6062) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:48:29.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:48:29.878+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:48:29.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:48:30.523+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:48:30.546+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:48:30.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:48:30.567+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:48:30.566+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:48:30.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.870 seconds
+[2025-02-20T13:49:00.856+0000] {processor.py:186} INFO - Started process (PID=6144) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:00.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:49:00.858+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:00.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:01.406+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:01.425+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:01.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:49:01.445+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:01.445+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:49:01.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.615 seconds
+[2025-02-20T13:49:31.943+0000] {processor.py:186} INFO - Started process (PID=6220) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:31.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:49:31.946+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:31.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:32.565+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:49:32.589+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:32.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:49:32.614+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:49:32.614+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:49:32.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.698 seconds
+[2025-02-20T13:50:03.610+0000] {processor.py:186} INFO - Started process (PID=6297) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:03.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:50:03.613+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:03.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:04.195+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:04.214+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:04.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:50:04.235+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:04.235+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:50:04.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.651 seconds
+[2025-02-20T13:50:34.983+0000] {processor.py:186} INFO - Started process (PID=6373) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:34.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:50:34.986+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:34.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:35.899+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:50:35.921+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:35.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:50:35.946+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:50:35.946+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:50:35.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.992 seconds
+[2025-02-20T13:51:06.260+0000] {processor.py:186} INFO - Started process (PID=6449) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:06.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:51:06.264+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:06.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:06.957+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:07.148+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:07.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:51:07.169+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:07.169+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:51:07.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.933 seconds
+[2025-02-20T13:51:37.658+0000] {processor.py:186} INFO - Started process (PID=6525) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:37.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:51:37.662+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:37.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:38.334+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:51:38.518+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:38.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:51:38.540+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:51:38.540+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:51:38.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.911 seconds
+[2025-02-20T13:52:08.668+0000] {processor.py:186} INFO - Started process (PID=6601) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:08.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:52:08.671+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:08.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:09.494+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:09.512+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:09.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:52:09.530+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:09.530+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:52:09.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.888 seconds
+[2025-02-20T13:52:39.939+0000] {processor.py:186} INFO - Started process (PID=6678) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:39.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:52:39.941+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:39.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:40.632+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:52:40.649+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:40.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:52:40.666+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:52:40.666+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:52:40.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.749 seconds
+[2025-02-20T13:53:10.754+0000] {processor.py:186} INFO - Started process (PID=6753) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:10.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:53:10.758+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:10.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:11.505+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:11.522+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:11.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:53:11.540+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:11.540+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:53:11.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.811 seconds
+[2025-02-20T13:53:41.679+0000] {processor.py:186} INFO - Started process (PID=6828) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:41.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:53:41.681+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:41.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:42.453+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:53:42.469+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:42.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:53:42.489+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:53:42.489+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:53:42.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.834 seconds
+[2025-02-20T13:54:12.806+0000] {processor.py:186} INFO - Started process (PID=6904) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:12.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:54:12.808+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:12.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:13.584+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:13.600+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:13.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:54:13.618+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:13.618+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:54:13.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.836 seconds
+[2025-02-20T13:54:43.815+0000] {processor.py:186} INFO - Started process (PID=6986) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:43.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:54:43.818+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:43.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:44.613+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:54:44.635+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:44.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:54:44.660+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:54:44.660+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:54:44.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.877 seconds
+[2025-02-20T13:55:15.158+0000] {processor.py:186} INFO - Started process (PID=7063) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:15.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:55:15.161+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:15.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:15.911+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:15.924+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:15.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:55:15.941+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:15.941+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:55:15.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.803 seconds
+[2025-02-20T13:55:46.482+0000] {processor.py:186} INFO - Started process (PID=7140) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:46.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:55:46.484+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:46.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:47.161+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:55:47.176+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:47.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:55:47.191+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:55:47.191+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:55:47.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.732 seconds
+[2025-02-20T13:56:17.401+0000] {processor.py:186} INFO - Started process (PID=7216) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:17.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:56:17.404+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:17.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:18.148+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:18.164+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:18.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:56:18.183+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:18.182+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:56:18.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.806 seconds
+[2025-02-20T13:56:48.390+0000] {processor.py:186} INFO - Started process (PID=7292) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:48.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:56:48.392+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:48.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:49.060+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:56:49.074+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:49.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:56:49.090+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:56:49.089+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:56:49.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.718 seconds
+[2025-02-20T13:57:19.607+0000] {processor.py:186} INFO - Started process (PID=7368) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:19.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:57:19.623+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:19.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:20.364+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:20.380+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:20.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:57:20.397+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:20.396+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:57:20.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.813 seconds
+[2025-02-20T13:57:50.856+0000] {processor.py:186} INFO - Started process (PID=7445) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:50.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:57:50.859+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:50.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:51.642+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:57:51.690+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:51.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:57:51.715+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:57:51.714+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:57:51.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.942 seconds
+[2025-02-20T13:58:22.460+0000] {processor.py:186} INFO - Started process (PID=7521) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:22.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:58:22.464+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:22.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:23.153+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:23.167+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:23.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:58:23.183+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:23.183+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:58:23.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.745 seconds
+[2025-02-20T13:58:54.206+0000] {processor.py:186} INFO - Started process (PID=7599) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:54.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:58:54.210+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:54.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:54.898+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:58:54.913+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:54.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:58:54.928+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:58:54.928+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:58:54.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.743 seconds
+[2025-02-20T13:59:25.123+0000] {processor.py:186} INFO - Started process (PID=7676) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:25.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:59:25.125+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:25.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:25.820+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:25.877+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:25.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:59:25.900+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:25.900+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:59:25.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.801 seconds
+[2025-02-20T13:59:56.718+0000] {processor.py:186} INFO - Started process (PID=7754) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:56.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T13:59:56.721+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:56.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:57.434+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T13:59:57.450+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:57.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:59:57.466+0000] {logging_mixin.py:190} INFO - [2025-02-20T13:59:57.466+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:59:57.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.769 seconds
+[2025-02-20T14:00:27.837+0000] {processor.py:186} INFO - Started process (PID=7830) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:27.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:00:27.841+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:27.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:28.522+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:28.536+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:28.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:00:28.552+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:28.552+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:00:28.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.736 seconds
+[2025-02-20T14:00:58.743+0000] {processor.py:186} INFO - Started process (PID=7907) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:58.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:00:58.746+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:58.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:59.420+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:00:59.437+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:59.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:00:59.454+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:00:59.454+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:00:59.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.736 seconds
+[2025-02-20T14:01:29.905+0000] {processor.py:186} INFO - Started process (PID=7989) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:01:29.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:01:29.907+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:01:29.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:01:30.647+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:01:30.662+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:01:30.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:01:30.681+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:01:30.681+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:01:30.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.830 seconds
+[2025-02-20T14:02:00.873+0000] {processor.py:186} INFO - Started process (PID=8065) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:00.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:02:00.876+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:00.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:01.641+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:01.656+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:01.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:02:01.675+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:01.675+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:02:01.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.829 seconds
+[2025-02-20T14:02:31.959+0000] {processor.py:186} INFO - Started process (PID=8141) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:31.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:02:31.972+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:31.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:32.707+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:02:32.722+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:32.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:02:32.750+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:02:32.750+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:02:32.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.815 seconds
+[2025-02-20T14:03:03.020+0000] {processor.py:186} INFO - Started process (PID=8217) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:03.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:03:03.024+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:03.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:03.751+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:03.766+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:03.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:03:03.782+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:03.782+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:03:03.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.822 seconds
+[2025-02-20T14:03:34.014+0000] {processor.py:186} INFO - Started process (PID=8298) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:34.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:03:34.017+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:34.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:34.705+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:03:34.728+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:34.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:03:34.761+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:03:34.761+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:03:34.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.770 seconds
+[2025-02-20T14:44:16.971+0000] {processor.py:186} INFO - Started process (PID=8318) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:16.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:44:16.980+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:16.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:18.471+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:18.490+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:18.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:44:18.510+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:18.509+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:44:18.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 1.570 seconds
+[2025-02-20T14:44:47.711+0000] {processor.py:186} INFO - Started process (PID=8400) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:47.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:44:47.714+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:47.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:48.401+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:44:48.415+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:48.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:44:48.429+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:44:48.429+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:44:48.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.737 seconds
+[2025-02-20T14:45:19.165+0000] {processor.py:186} INFO - Started process (PID=8473) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T14:45:19.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T14:45:19.168+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:45:19.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T14:45:19.986+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T14:45:20.003+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:45:20.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:45:20.021+0000] {logging_mixin.py:190} INFO - [2025-02-20T14:45:20.021+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:45:20.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.880 seconds
+[2025-02-20T18:44:21.599+0000] {processor.py:186} INFO - Started process (PID=8541) to work on /opt/airflow/dags/dag2.py
+[2025-02-20T18:44:21.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2025-02-20T18:44:21.613+0000] {logging_mixin.py:190} INFO - [2025-02-20T18:44:21.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2025-02-20T18:44:23.818+0000] {processor.py:925} INFO - DAG(s) 'google_news_scraper' retrieved from /opt/airflow/dags/dag2.py
+[2025-02-20T18:44:23.847+0000] {logging_mixin.py:190} INFO - [2025-02-20T18:44:23.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T18:44:23.879+0000] {logging_mixin.py:190} INFO - [2025-02-20T18:44:23.879+0000] {dag.py:4180} INFO - Setting next_dagrun for google_news_scraper to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T18:44:23.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 2.317 seconds
